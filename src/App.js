@@ -13,10 +13,10 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Header />
-            <Route path='/shop' render={() => (
+            <Route exact path='/shop' render={() => (
               <ShopPage />
             )} />
-            <Route path='/' render={() => (
+            <Route exact path='/' render={() => (
               <HomePage />
             )} />
             <Route path='/contact' render={() => (
