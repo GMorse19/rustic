@@ -1,19 +1,22 @@
 import React from 'react'
 
+import { slide as Menu } from 'react-burger-menu'
+
 import './Header.scss'
 
 const Header = () => (
     <div className='header'>
-        <img
+        <button className='burger-menu'><img
           src='rustic.jpg'
           alt='logo'
           className='logo'
         />
-        <div>
+        </button>
+        <Menu width={'10%'}>
           <a href='/'>Home</a>
           <a href='/shop'>Shop</a>
           <a href='/contact'>Contact</a>
-        </div>
+        </Menu>
     </div>
 )
 

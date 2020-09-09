@@ -4,11 +4,18 @@ a {
   display: inline-block;
 }
 
+.burger-menu {
+  border-radius: 20px;
+  // position: absolute;
+}
+
 .logo {
   width: 60px;
   float: left;
 }
 
 .header {
-  height: 60px;
+  // height: 60px;
+  position: absolute;
+  background-color: transparentize(green, 0);
 }
