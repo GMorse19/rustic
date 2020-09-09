@@ -1,24 +1,19 @@
 import React from 'react'
 
-import Link from 'react-bootstrap/Link'
-
-import { ReactComponent as Logo } from '../../assets/rustic.jpg'
-
-// import './Header.scss'
+import './Header.scss'
 
 const Header = () => (
     <div className='header'>
-        <Link className='logo-container' to="/">
-            <Logo className='logo' />
-        </Link>
-        <div className='options'>
-            <Link className='option' to='/shop'>
-                SHOP
-            </Link>
-            <Link className='option' to='/shop'>
-                CONTACT
-            </Link>
-            </div>
+        <img
+          src='rustic.jpg'
+          alt='logo'
+          className='logo'
+        />
+        <div>
+          <a href='/'>Home</a>
+          <a href='/shop'>Shop</a>
+          <a href='/contact'>Contact</a>
+        </div>
     </div>
 )
 
