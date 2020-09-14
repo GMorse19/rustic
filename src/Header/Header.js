@@ -4,6 +4,10 @@ import { slide as Menu } from 'react-burger-menu'
 
 import './Header.scss'
 
+const handleScroll = (id) => {
+    console.log('scroll')
+}
+
 const Header = () => (
     <div className='header'>
         <button className='burger-menu'><img
@@ -12,10 +16,10 @@ const Header = () => (
           className='logo'
         />
         </button>
-        <Menu width={'10%'}>
-          <a href='/'>Home</a>
-          <a href='/shop'>Shop</a>
-          <a href='/contact'>Contact</a>
+        <Menu className='menu'>
+          <a onClick={handleScroll} href='/'>Home</a>
+          <a href='#shop'>Shop</a>
+          <a href='#contact'>Contact</a>
         </Menu>
     </div>
 )
