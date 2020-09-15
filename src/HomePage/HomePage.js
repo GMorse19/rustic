@@ -7,7 +7,7 @@ import './HomePage.scss'
 
 const HomePage = () => (
   <div className='home-page'>
-    <h1>HomePage</h1>
+    <h1 className='title'>HomePage</h1>
     <ShopPage />
     <ContactPage />
   </div>

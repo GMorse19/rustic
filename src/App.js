@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <div><Header /></div>
         <div>
+        <Header />
             <Route exact path='/shop' render={() => (
               <ShopPage />
             )} />
