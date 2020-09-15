@@ -3,7 +3,7 @@ import React from 'react'
 import './ShopPage.scss'
 
 const ShopPage = () => (
-  <div>
+  <div className='gallery-div'>
     <h1 id='shop' className='shop-page'>Gallery</h1>
     <div>
       <h2>Red, white and blue</h2>
