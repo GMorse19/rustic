@@ -1,5 +1,9 @@
+.block {
+  display: inline-block;
+}
+
 .flag-image {
-  width: 25vw;
+  width: 20vw;
 }
 
 .gallery-div {
@@ -8,10 +12,35 @@
   margin-top: 100vh;
 }
 
-.image-div {
+.image-div1 {
   background-color: grey;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   display: inline-block;
   margin: 20px;
-  width: 25vw;
+  width: 20vw;
+}
+
+.image-div2 {
+  background-color: grey;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: inline-block;
+  margin: 40px;
+  width: 20vw;
+}
+
+.info-div {
+  font-size: 40px;
+}
+
+.intro {
+  display: inline-block;
+  float: right;
+  height: 80vh;
+  margin: 30px;
+  width: 30vw;
+  background-color: #FFF;
+}
+
+.shop-page {
+  margin-right: 80vw;
 }
