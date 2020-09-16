@@ -1,5 +1,6 @@
 import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
 import './App.css';
 
@@ -11,6 +12,7 @@ import ContactPage from './ContactPage/ContactPage'
 function App() {
   return (
     <BrowserRouter>
+    <ParallaxProvider>
       <div className="App">
       <Header />
         <div>
@@ -23,8 +25,9 @@ function App() {
             <Route path='/contact' render={() => (
               <ContactPage />
             )} />
-            </div>
         </div>
+      </div>
+      </ParallaxProvider>
     </BrowserRouter>
   )
 }
