@@ -12,8 +12,8 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
+      <Header />
         <div>
-        <Header />
             <Route exact path='/shop' render={() => (
               <ShopPage />
             )} />
@@ -23,8 +23,8 @@ function App() {
             <Route path='/contact' render={() => (
               <ContactPage />
             )} />
+            </div>
         </div>
-      </div>
     </BrowserRouter>
   )
 }

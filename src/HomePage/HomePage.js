@@ -6,8 +6,9 @@ import ContactPage from '../ContactPage/ContactPage'
 import './HomePage.scss'
 
 const HomePage = () => (
-  <div className='home-page'>
-    <h1 className='title'>HomePage</h1>
+  <div className=''>
+  <br />
+    <h1 className='title'>Off Street</h1>
     <ShopPage />
     <ContactPage />
   </div>
