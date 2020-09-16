@@ -1,4 +1,5 @@
 import React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 
 import './ShopPage.scss'
 
@@ -8,10 +9,14 @@ const ShopPage = () => (
     <div>
       <h2>Red, white and blue</h2>
       <div className='image-div'>
+      <Parallax className="custom-class" y={[-20, 20]} tagOuter="figure">
         <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
+      </Parallax>
       </div>
       <div className='image-div'>
+      <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
         <img className='flag-image' src='./Flags/RedWhite&Blue/Flag2.jpg' alt='Stars and Stripes' />
+        </Parallax>
       </div>
       <div className='image-div'>
         <img className='flag-image' src='./Flags/RedWhite&Blue/Flag-angle.jpg' alt='Stars and Stripes' />

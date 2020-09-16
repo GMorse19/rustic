@@ -3,33 +3,22 @@
   color: #FFF;
 }
 
+.home-logo {
+  display: inline-block;
+  margin-top: 40vh;
+}
+
 .shop-page {
   // margin-top: 600px;
 }
 
 .title {
-  margin-top: 20vh;
+  margin-top: 50vh;
   font-size: 100px;
   font-style: oblique;
 }
 
-.div1 {
-  background-color: red;
-  display: flex;
-  width: 200px;
-  height: 200px;
-}
-
-.div2 {
-  background-color: green;
-  margin: 50px;
-  width: 100px;
-  height: 100px;
-}
-
-.div3 {
-  background-color: blue;
-  // display: flex;
-  width: 200px;
-  height: 200px;
+.title-div {
+  width: 50%;
+  display: inline-block;
 }
