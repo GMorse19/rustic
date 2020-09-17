@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, BrowserRouter } from 'react-router-dom'
 import { ParallaxProvider } from 'react-scroll-parallax';
 
-import './App.css';
+import './App.scss';
 
 import Header from './Header/Header'
 import ShopPage from './ShopPage/ShopPage'

@@ -1,31 +1,17 @@
-.block {
-  display: inline-block;
-}
+
 
 .flag-image {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   width: 20vw;
+}
+
+.fire-flag-div {
+  margin-top: 100px;
 }
 
 .gallery-div {
-  background-color: grey;
   margin-bottom: 0px;
   margin-top: 100vh;
-}
-
-.image-div1 {
-  background-color: grey;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: inline-block;
-  margin: 20px;
-  width: 20vw;
-}
-
-.image-div2 {
-  background-color: grey;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  display: inline-block;
-  margin: 40px;
-  width: 20vw;
 }
 
 .info-div {
@@ -33,12 +19,16 @@
 }
 
 .intro {
-  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: right;
   height: 80vh;
   margin: 30px;
   width: 30vw;
   background-color: #FFF;
+}
+
+.section3 {
+  margin-top: 200px;
 }
 
 .shop-page {
