@@ -10,15 +10,16 @@ const ContactPage = () => (
     <Row>
       <Col>
           <h4>Quick Links</h4>
-          <p><a href='/'>Flags</a></p>
-          <p><a href='/'>Byrd Houses</a></p>
-          <p><a href='/'>Chalk Boards</a></p>
+          <a href='/'>Flags</a>
+          <a href='/'>Byrd Houses</a>
+          <a href='/'>Chalk Boards</a>
       </Col>
       <Col>
-          <h4>Contact Us</h4>
-          <a href='/'>Email</a>
-          <br />
-          <a href='/'>Phone</a>
+      <div className=''>
+          <h4>Contact Us</h4><br />
+          <a className='space' href='/'>Email</a><br/>
+          <a className='space' href='/'>Phone</a>
+      </div>
       </Col>
     </Row>
     </div>
