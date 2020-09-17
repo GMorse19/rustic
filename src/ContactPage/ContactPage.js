@@ -6,18 +6,22 @@ import './ContactPage.scss'
 
 const ContactPage = () => (
   <Container>
+  <div className='contact-div contact-page'>
     <Row>
       <Col>
-        <div className='contact-div'>
-          <h1 id='contact' className='contact-page'>ContactPage</h1>
-          <p>
-              <a href='/'>Email</a>
-              <a href='/'>Phone</a>
-              <a href='/'>Facebook</a>
-          </p>
-        </div>
+          <h4>Quick Links</h4>
+          <p><a href='/'>Flags</a></p>
+          <p><a href='/'>Byrd Houses</a></p>
+          <p><a href='/'>Chalk Boards</a></p>
+      </Col>
+      <Col>
+          <h4>Contact Us</h4>
+          <a href='/'>Email</a>
+          <br />
+          <a href='/'>Phone</a>
       </Col>
     </Row>
+    </div>
   </Container>
 )
 
