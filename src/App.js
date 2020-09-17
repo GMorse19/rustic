@@ -5,6 +5,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.scss';
 
 import Header from './Header/Header'
+import Footer from './Footer/Footer'
 import ShopPage from './ShopPage/ShopPage'
 import HomePage from './HomePage/HomePage'
 import ContactPage from './ContactPage/ContactPage'
@@ -14,18 +15,19 @@ function App() {
     <BrowserRouter>
     <ParallaxProvider>
       <div className="App">
-      <Header />
-        <div>
-            <Route exact path='/shop' render={() => (
-              <ShopPage />
-            )} />
-            <Route exact path='/' render={() => (
-              <HomePage />
-            )} />
-            <Route path='/contact' render={() => (
-              <ContactPage />
-            )} />
-        </div>
+        <Header />
+          <div>
+              <Route exact path='/shop' render={() => (
+                <ShopPage />
+              )} />
+              <Route exact path='/' render={() => (
+                <HomePage />
+              )} />
+              <Route path='/contact' render={() => (
+                <ContactPage />
+              )} />
+          </div>
+        <Footer />
       </div>
       </ParallaxProvider>
     </BrowserRouter>

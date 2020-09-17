@@ -4,7 +4,7 @@ import { Parallax } from 'react-scroll-parallax'
 import { Container, Row, Col } from 'react-bootstrap'
 
 import ShopPage from '../ShopPage/ShopPage'
-import ContactPage from '../ContactPage/ContactPage'
+// import ContactPage from '../ContactPage/ContactPage'
 
 import './HomePage.scss'
 
@@ -28,7 +28,6 @@ const HomePage = () => (
   </Container>
   </div>
     <ShopPage />
-    <ContactPage />
   </div>
 )
 
