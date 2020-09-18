@@ -11,9 +11,9 @@ const Footer = () => (
       <Row>
         <Col>
             <h4>Quick Links</h4>
-            <a href='/'>Flags</a>
-            <a href='/'>Byrd Houses</a>
-            <a href='/'>Chalk Boards</a>
+            <h6><a className='spacing' href='/'>Flags</a></h6>
+            <h6><a className='spacing' href='/'>Byrd Houses</a></h6>
+            <h6><a className='spacing' href='/'>Chalk Boards</a></h6>
         </Col>
         <Col>
         <div className='spacing'>

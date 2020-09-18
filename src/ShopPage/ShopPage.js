@@ -11,16 +11,16 @@ const ShopPage = () => (
     <Container>
       <Row>
         <Col>
+          <div className='intro'>
+            <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+          </div>
+        </Col>
+        <Col>
           <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
             <div className='image-div1'>
               <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
             </div>
           </Parallax>
-        </Col>
-        <Col>
-          <div className='intro'>
-            <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
-          </div>
         </Col>
       </Row>
     </Container>

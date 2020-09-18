@@ -2,6 +2,7 @@
 
 .flag-image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-top: 100px;
   width: 20vw;
 }
 
@@ -11,19 +12,22 @@
 
 .gallery-div {
   margin-bottom: 0px;
-  margin-top: 100vh;
+  margin-top: 20vh;
+  background-image: url('/Flags/RedWhite&Blue/Flag-flat.jpg');
+  // background-repeat: no-repeat;
+  background-size: contain;
+  // opacity: 0.75;
 }
 
 .info-div {
-  font-size: 40px;
+  font-size: 20px;
 }
 
 .intro {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   float: right;
-  height: 80vh;
-  margin: 30px;
-  width: 30vw;
+  height: 30vh;
+  margin: 40px;
   background-color: #FFF;
 }
 
