@@ -1,3 +1,18 @@
+.bg-image {
+  // background-image: url('/debris.jpg');
+  // height: 100vh;
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+// .img-one {
+//   background-image: url('/debris.jpg');
+// }
+//
+// .img-two {
+//   background-image: url('/Flags/RedLine/FireFlag.jpg');
+// }
+
 .contact-page {
   background-color: #000;
   color: #FFF;
@@ -9,11 +24,11 @@
 
 .home-page {
   // background-color: green;
-  // width: 100vw;
-  // height: 100vh;
-  background-image: url('/debris.jpg');
+  width: 100vw;
+  height: 100vh;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  background-image: url('/debris.jpg');
 }
 
 .title {
