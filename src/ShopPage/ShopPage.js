@@ -11,15 +11,14 @@ const ShopPage = () => (
     <Container>
       <Row>
         <Col>
-          <div className='intro'>
-            <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
-          </div>
+          <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+        </Col>
+        <Col>
+          <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
         </Col>
         <Col>
           <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-            <div className='image-div1'>
-              <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
-            </div>
+            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
           </Parallax>
         </Col>
       </Row>
@@ -27,24 +26,17 @@ const ShopPage = () => (
     <Container className='section3'>
       <Row>
         <Col>
-        <div className='intro'>
-          <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
-        </div>
-        </Col>
-        <Col>
           <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-            <div className='image-div'><img className='flag-image' src='./Flags/BlueLine/BlueLineAngle.jpg' alt='Thin Blue Line Flag'/></div>
+            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
           </Parallax>
         </Col>
+        <Col>
+          <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
+        </Col>
+        <Col>
+          <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+        </Col>
         </Row>
-        <Row className='fire-flag-div'>
-          <Col>
-            <Parallax className="custom-class" y={[-30, 30]} tagOuter="figure">
-              <h2>Thin Red Line</h2>
-              <div className='image-div'><img className='flag-image' src='./Flags/RedLine/FireFlag.jpg' alt='Fire Flag'/></div>
-            </Parallax>
-          </Col>
-      </Row>
     </Container>
   </div>
 )
