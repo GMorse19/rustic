@@ -1,29 +1,18 @@
-
-
 .flag-image {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  position: absolute;
+  // position: absolute;
   left: 15%;
   top: 15%;
   width: 20vw;
-  transition: width 2s;
+  transition: width 1s;
 }
 
 .flag-image:hover {
-  width: 25vw;
+  width: 21vw;
 }
 
 .fire-flag-div {
   margin-top: 500px;
-}
-
-.gallery-div {
-  margin-bottom: 0px;
-  // margin-top: 10vh;
-  height: 100vh;
-  // background-image: url('/Flags/RedWhite&Blue/Flag-flat.jpg');
-  background-color: #dbc27b;
-  // background-size: cover;
 }
 
 .home-logo-gallery {
@@ -54,14 +43,9 @@
 .info-div {
   font-size: 20px;
   width: 25vw;
-  // margin-right: 50%;
 }
 
 .intro {
-  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  // display: inline-block;
-  // float: right;
-  // margin-top: 25%;
   padding-top: 25px;
   text-align: left;
   width: 50vw;
@@ -69,10 +53,18 @@
   z-index: 10000;
 }
 
-.section3 {
-  margin-top: 200px;
+.second-row {
+  margin-top: 10vh;
 }
+
+// .section3 {
+//   margin-top: 200px;
+// }
 
 .shop-page {
   margin-right: 80vw;
+}
+
+.shop-container {
+  margin-top: 30vh;
 }

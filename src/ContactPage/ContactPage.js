@@ -6,8 +6,9 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './ContactPage.scss'
 
 const ContactPage = () => (
-  <div className='contact-div'>
-    <Container className='section3'>
+  <div className='contact-div info-section'>
+  <h1>Re-Purposded</h1>
+    <Container className='shop-container'>
       <Row>
         <Col>
           <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
