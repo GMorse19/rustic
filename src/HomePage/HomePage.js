@@ -10,35 +10,14 @@ import Footer from '../Footer/Footer'
 
 import './HomePage.scss'
 
-class HomePage extends React.Component{
-  state = {
-    color: 'white'
-  }
-
-  listenScrollEvent = e => {
-    if (window.scrollY > 400) {
-      this.setState({color: 'black'})
-    } else {
-      this.setState({color: 'white'})
-    }
-  }
-
-  componentDidMount() {
-    window.addEventListener('scroll', this.listenScrollEvent)
-  }
-
-  render() {
-    return (
-      <div className='home-page'>
+const HomePage = () => (
       <div className=''>
         <Container className=''>
           <Row>
             <Col>
-              <div className=''>
                 <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
                   <img className='home-logo' width='300px' src='./Logo/OSlogo.png' alt='rustic'/>
                 </Parallax>
-              </div>
             </Col>
             <Col>
               <h1 className='title'>Off Street</h1>
@@ -46,14 +25,10 @@ class HomePage extends React.Component{
             </Col>
           </Row>
         </Container>
-      </div>
         <ShopPage />
-        <InfoPage />
         <ContactPage />
         <Footer />
       </div>
     )
-  }
-}
 
 export default HomePage
