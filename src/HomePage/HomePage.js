@@ -15,13 +15,17 @@ const HomePage = () => (
         <Container className=''>
           <Row>
             <Col>
-                <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-                  <img className='home-logo' width='300px' src='./Logo/OSlogo.png' alt='rustic'/>
-                </Parallax>
+              <Parallax className="custom-class" y={[-80, 80]} tagOuter="figure">
+                <img className='home-logo' width='300px' src='./Logo/OSlogo.png' alt='rustic'/>
+              </Parallax>
             </Col>
             <Col>
-              <h1 className='title'>Off Street</h1>
-              <h5>Carpentry with a re-purpose</h5>
+              <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
+                <div className='title-div'>
+                  <h1 className='title'>Off Street</h1>
+                  <h5>Carpentry with a re-purpose</h5>
+                </div>
+              </Parallax>
             </Col>
           </Row>
         </Container>

@@ -1,25 +1,57 @@
-.contact-page {
-  // background-color: #000;
-  // color: #FFF;
-}
-
 .home-logo {
-  margin-top: 30vh;
+  margin-top: 10vh;
 }
 
-// .home-page {
-//   background-repeat: no-repeat;
-//   background-size: contain;
-//   background-image: url('/debris.jpg');
-// }
+.home-page {
+}
+
+.image-div {
+  margin: 30%;
+}
+
+.image-wrapper {
+  background-color: #e3e1e1;
+  display: flex;
+  height: 100%;
+  width: 50vw;
+  transition: background-color 1s;
+  position: relative;
+  float: right;
+}
+
+.image-wrapper:hover {
+  background-color: #cac27f;
+  .flag-image {
+    width: 21vw;
+  }
+}
+
+.info-div {
+  font-size: 15px;
+  position: absolute;
+  margin-top: 25%;
+  width: 20vw;
+  right: 40vw;
+  text-align: left;
+}
+
+.info-image {
+  position: absolute;
+  left: 30vw;
+  width: 20vw;
+}
+
+.info-section {
+  background-color: #dbc27b;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.4), 20px 6px 20px 20px rgba(0, 0, 0, 0.19);
+}
 
 .title {
-  margin-top: 70vh;
   font-size: 100px;
   font-style: oblique;
 }
 
 .title-div {
-  width: 50%;
-  display: inline-block;
+  margin-top: 60vh;
+  margin-bottom: 30vh;
 }

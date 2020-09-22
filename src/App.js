@@ -9,13 +9,13 @@ import HomePage from './HomePage/HomePage'
 
 class App extends React.Component{
   state = {
-    color: 'img1'
+    color: 'img1 App'
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 700 && window.scrollY <= 2200) {
+    if (window.scrollY > 2000 && window.scrollY <= 3800) {
       this.setState({color: 'img2 App'})
-    } else if (window.scrollY > 2200) {
+    } else if (window.scrollY > 3800) {
       this.setState({color: 'img3 App'})
     } else {
       this.setState({color: 'img1 App'})
