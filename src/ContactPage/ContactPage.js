@@ -16,7 +16,9 @@ const ContactPage = () => (
           </Parallax>
         </Col>
         <Col>
-          <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
+          <div className='image-wrapper'>
+            <img className='flag-image pad' src='./Flags/RedLine/FireFlagCutOut.jpg' alt='Stars and Stripes' />
+          </div>
         </Col>
         <Col>
           <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>

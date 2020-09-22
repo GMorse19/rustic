@@ -9,30 +9,40 @@ const ShopPage = () => (
   <div className='info-section'>
     <h1 id='shop' className='shop-page'>Hand Crafted</h1>
     <Container className='shop-container'>
-      <Row>
+      <Row className='rows'>
         <Col>
-          <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+          <div className='image-wrapper'>
+            <div className='image-div'>
+              <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+            </div>
+            <div className='info-div'>
+              <p>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+            </div>
+          </div>
         </Col>
         <Col>
-          <Parallax className="custom-class" y={[-10, 10]} tagOuter="figure">
-            <img className='flag-image' src='./Flags/RedWhite&Blue/Flag.jpg' alt='Stars and Stripes' />
-          </Parallax>
-        </Col>
-        <Col>
-          <Parallax className="custom-class" y={[80, -80]} tagOuter="figure">
+          <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
             <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
           </Parallax>
         </Col>
       </Row>
-      <Row className='second-row'>
-        <Col>
+      <Row className='rows'>
+      <Col>
         <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
           <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
         </Parallax>
+      </Col>
+      <Col></Col>
+        <Col>
+          <div className='image-wrapper'>
+            <div className='image-div'>
+              <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+            </div>
+            <div className='info-div'>
+              <p>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+            </div>
+          </div>
         </Col>
-        <Col></Col>
-        <Col></Col>
-        <Col></Col>
       </Row>
     </Container>
   </div>

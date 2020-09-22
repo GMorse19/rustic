@@ -5,8 +5,36 @@
 .home-page {
 }
 
+.image-div {
+  margin: 25%;
+}
+
+.image-wrapper {
+  background-color: #e3e1e1;
+  display: flex;
+  height: 100%;
+  width: 40vw;
+  transition: background-color 1s;
+  position: relative;
+  float: right;
+}
+
+.info-div {
+  font-size: 20px;
+  position: absolute;
+  margin-top: 25%;
+  width: 20vw;
+  right: 30vw;
+}
+
+.info-image {
+  position: absolute;
+  left: 30vw;
+  width: 20vw;
+}
+
 .info-section {
-  height: 100vh;
+  // height: 100vh;
   background-color: #dbc27b;
   box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.4), 20px 6px 20px 20px rgba(0, 0, 0, 0.19);
 }

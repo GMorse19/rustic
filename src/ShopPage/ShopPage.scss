@@ -1,6 +1,5 @@
 .flag-image {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  // position: absolute;
+  box-shadow: 0 24px 28px 0 rgba(0, 0, 0, 0.4), 0 26px 29px 0 rgba(0, 0, 0, 0.19);
   left: 15%;
   top: 15%;
   width: 20vw;
@@ -19,32 +18,6 @@
   width: 100px;
 }
 
-.image-div {
-  position: relative;
-  padding: 25px;
-  margin-left: 50%;
-  width: 30vw;
-  height: 40vh;
-  background-color: red;
-}
-
-.image-div1 {
-  width: 80vw;
-  background-color: red;
-}
-
-.why {
-  padding-left: 5px;
-  width: 50vw;
-  height: 50vh;
-  background-color: green;
-}
-
-.info-div {
-  font-size: 20px;
-  width: 25vw;
-}
-
 .intro {
   padding-top: 25px;
   text-align: left;
@@ -53,18 +26,23 @@
   z-index: 10000;
 }
 
-.second-row {
-  margin-top: 10vh;
-}
-
-// .section3 {
-//   margin-top: 200px;
-// }
-
-.shop-page {
-  margin-right: 80vw;
+.rows {
+  margin-top: 40vh;
 }
 
 .shop-container {
-  margin-top: 30vh;
+  margin-top: 10vh;
+  padding-bottom: 30vh;
 }
+
+// .second-row {
+//   margin-top: 10vh;
+// }
+//
+// .shop-page {
+//   margin-right: 80vw;
+// }
+//
+// .shop-container {
+//   margin-top: 30vh;
+// }
