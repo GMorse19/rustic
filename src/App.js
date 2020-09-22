@@ -1,26 +1,47 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Route, BrowserRouter } from 'react-router-dom'
+import { ParallaxProvider } from 'react-scroll-parallax';
 
-function App() {
+import './App.scss';
+
+import Header from './Header/Header'
+import HomePage from './HomePage/HomePage'
+
+class App extends React.Component{
+  state = {
+    color: 'img1 App'
+  }
+
+  listenScrollEvent = e => {
+    if (window.scrollY > 2000 && window.scrollY <= 3800) {
+      this.setState({color: 'img2 App'})
+    } else if (window.scrollY > 3800) {
+      this.setState({color: 'img3 App'})
+    } else {
+      this.setState({color: 'img1 App'})
+    }
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.listenScrollEvent)
+  }
+
+  render() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+      <ParallaxProvider>
+        <div className={this.state.color}>
+          <Header />
+            <div>
+                <Route exact path='/' render={() => (
+                  <HomePage />
+                )} />
+            </div>
+        </div>
+      </ParallaxProvider>
+    </BrowserRouter>
+  )
+}
 }
 
 export default App;
