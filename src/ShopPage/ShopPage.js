@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './ShopPage.scss'
 
 const ShopPage = () => (
-  <div className='info-section'>
+  <div className='info-section' id='shop'>
     <Container className='shop-container'>
       <Row className='rows'>
       <Col></Col>
@@ -16,12 +16,14 @@ const ShopPage = () => (
               <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
             </div>
             <div className='info-div'>
+            <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
             <h2>One persons trash...</h2>
               <p>Re-use, re-purpose, re-invent. Off Street is committed to utilizing left over and forgotten
               construction debris to create beautifully unique hand crafted items.</p>
+              </Parallax>
             </div>
 
-            <Parallax className="custom-class" y={[90, -100]} tagOuter="figure">
+            <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
               <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
             </Parallax>
           </div>
@@ -42,7 +44,7 @@ const ShopPage = () => (
               a history.</p>
             </div>
 
-          <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
+          <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
             <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
           </Parallax>
           </div>

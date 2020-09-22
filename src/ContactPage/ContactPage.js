@@ -6,7 +6,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './ContactPage.scss'
 
 const ContactPage = () => (
-  <div className='contact-div info-section'>
+  <div id='contact' className='contact-div info-section'>
     <Container className='shop-container'>
     <Row className='rows'>
     <Col></Col>

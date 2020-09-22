@@ -12,12 +12,11 @@ const InfoPage = () => (
       <Row>
         <Col>
           <Parallax className="custom-class" y={[40, -40]} tagOuter="figure">
-            <div className='image-div info1'>
+            <div className='info1'>
               <img className='flag-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white flag'/>
             </div>
           </Parallax>
         </Col>
-        <Col></Col>
         <Col></Col>
         <Col>
           <Parallax className="custom-class" y={[-70, 70]} tagOuter="figure">
@@ -26,6 +25,7 @@ const InfoPage = () => (
             </div>
           </Parallax>
         </Col>
+        <Col></Col>
         </Row>
         <Row>
         <Col></Col>
