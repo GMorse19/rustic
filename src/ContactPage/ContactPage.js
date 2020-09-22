@@ -7,38 +7,49 @@ import './ContactPage.scss'
 
 const ContactPage = () => (
   <div className='contact-div info-section'>
-  <h1>Re-Purposed</h1>
     <Container className='shop-container'>
-      <Row className='rows'>
-        <Col>
-          <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
-          </Parallax>
-        </Col>
-        <Col>
-          <div className='image-wrapper'>
-            <img className='flag-image pad' src='./Flags/RedLine/FireFlagCutOut.jpg' alt='Stars and Stripes' />
+    <Row className='rows'>
+    <Col></Col>
+      <Col>
+        <div className='image-wrapper'>
+          <div className='image-div'>
+            <img className='flag-image' src='./Chalk.png' alt='Chalk Board' />
           </div>
-        </Col>
-        <Col>
-          <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
-        </Col>
-        </Row>
-        <Row className='rows'>
-          <Col>
-            <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-              <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
-            </Parallax>
-          </Col>
-          <Col>
-            <div className='image-wrapper'>
-              <img className='flag-image pad' src='./Flags/RedLine/FireFlagCutOut.jpg' alt='Stars and Stripes' />
-            </div>
-          </Col>
-          <Col>
-            <p className='info-div'>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
-          </Col>
-          </Row>
+          <div className='info-div'>
+          <h2>Tells a story...</h2>
+            <p>"Rescue Wood" Cut offs and scraps from new house construction to
+            demolition debris, each piece used at Off Street comes with it's own unique
+            a history.</p>
+          </div>
+
+        <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
+          <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
+        </Parallax>
+        </div>
+      </Col>
+      <Col></Col>
+    </Row>
+    <Row className='rows'>
+    <Col></Col>
+      <Col>
+        <div className='image-wrapper'>
+          <div className='image-div'>
+            <img className='flag-image' src='./old-boards.jpg' alt='Chalk Board' />
+          </div>
+          <div className='info-div'>
+          <h2>Tells a story...</h2>
+            <p>"Rescue Wood" Cut offs and scraps from new house construction to
+            demolition debris, each piece used at Off Street comes with it's own unique
+            a history.</p>
+          </div>
+
+        <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
+          <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
+        </Parallax>
+        </div>
+      </Col>
+      <Col></Col>
+    </Row>
     </Container>
   </div>
 )

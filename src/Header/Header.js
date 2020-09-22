@@ -11,7 +11,7 @@ const handleScroll = (id) => {
 const Header = () => (
     <div className='header'>
         <button className='burger-menu'><img
-          src='rustic.jpg'
+          src='burger.png'
           alt='logo'
           className='logo'
         />
