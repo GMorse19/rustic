@@ -7,7 +7,6 @@ import './ShopPage.scss'
 
 const ShopPage = () => (
   <div className='info-section'>
-    <h1 id='shop' className='shop-page'>Hand Crafted</h1>
     <Container className='shop-container'>
       <Row className='rows'>
       <Col></Col>
@@ -17,13 +16,14 @@ const ShopPage = () => (
               <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
             </div>
             <div className='info-div'>
-            <h2>Hand Crafted</h2>
-              <p>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+            <h2>One persons trash...</h2>
+              <p>Re-use, re-purpose, re-invent. Off Street is committed to utilizing left over and forgotten
+              construction debris to create beautifully unique hand crafted items.</p>
             </div>
 
-          <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
-            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
-          </Parallax>
+            <Parallax className="custom-class" y={[90, -100]} tagOuter="figure">
+              <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
+            </Parallax>
           </div>
         </Col>
         <Col></Col>
@@ -33,11 +33,13 @@ const ShopPage = () => (
         <Col>
           <div className='image-wrapper'>
             <div className='image-div'>
-              <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+              <img className='flag-image' src='./old-boards.jpg' alt='Chalk Board' />
             </div>
             <div className='info-div'>
-            <h2>Hand Crafted</h2>
-              <p>Reclaimed wood from construction sites. Re-purposed into unique hand crafted gifts.</p>
+            <h2>Tells a story...</h2>
+              <p>"Rescue Wood" Cut offs and scraps from new house construction to
+              demolition debris, each piece used at Off Street comes with it's own unique
+              a history.</p>
             </div>
 
           <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">

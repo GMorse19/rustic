@@ -30,6 +30,7 @@ const HomePage = () => (
           </Row>
         </Container>
         <ShopPage />
+        <InfoPage />
         <ContactPage />
         <Footer />
       </div>
