@@ -13,9 +13,9 @@ class App extends React.Component{
   }
 
   listenScrollEvent = e => {
-    if (window.scrollY > 800 && window.scrollY <= 2400) {
+    if (window.scrollY > 2000 && window.scrollY <= 3800) {
       this.setState({color: 'img2 App'})
-    } else if (window.scrollY > 2400) {
+    } else if (window.scrollY > 3800) {
       this.setState({color: 'img3 App'})
     } else {
       this.setState({color: 'img1 App'})
