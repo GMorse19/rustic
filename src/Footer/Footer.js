@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
