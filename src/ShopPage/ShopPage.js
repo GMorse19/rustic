@@ -51,6 +51,48 @@ const ShopPage = () => (
         </Col>
         <Col></Col>
       </Row>
+      <Row className='rows'>
+      <Col></Col>
+        <Col>
+          <div className='image-wrapper'>
+            <div className='image-div'>
+              <img className='flag-image' src='./Chalk.png' alt='Chalk Board' />
+            </div>
+            <div className='info-div'>
+            <h2>Green...</h2>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam,"</p>
+            </div>
+
+          <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
+            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
+          </Parallax>
+          </div>
+        </Col>
+        <Col></Col>
+      </Row>
+      <Row className='rows'>
+      <Col></Col>
+        <Col>
+          <div className='image-wrapper'>
+            <div className='image-div'>
+              <img className='flag-image' src='./birdHouse.jpg' alt='Bird House' />
+            </div>
+            <div className='info-div'>
+            <h2>Reclaimed...</h2>
+              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              Ut enim ad minim veniam,"</p>
+            </div>
+
+          <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
+            <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
+          </Parallax>
+          </div>
+        </Col>
+        <Col></Col>
+      </Row>
     </Container>
   </div>
 )
