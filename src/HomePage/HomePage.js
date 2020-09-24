@@ -3,7 +3,7 @@ import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
-import ShopPage from '../ShopPage/ShopPage'
+import Products from '../Products/Products'
 import ContactPage from '../ContactPage/ContactPage'
 import InfoPage from '../InfoPage/InfoPage'
 import Footer from '../Footer/Footer'
@@ -29,8 +29,7 @@ const HomePage = () => (
             </Col>
           </Row>
         </Container>
-        <ShopPage />
-        <InfoPage />
+        <Products />
         <ContactPage />
         <Footer />
       </div>
