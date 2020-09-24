@@ -3,9 +3,9 @@ import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
-import './ShopPage.scss'
+import './Products.scss'
 
-const ShopPage = () => (
+const Products = () => (
   <div className='info-section' id='shop'>
     <Container className='shop-container'>
       <Row className='rows'>
@@ -97,4 +97,4 @@ const ShopPage = () => (
   </div>
 )
 
-export default ShopPage
+export default Products

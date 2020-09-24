@@ -5,8 +5,10 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 import './App.scss';
 
 import Header from './Header/Header'
+import About from './About/About'
 import HomePage from './HomePage/HomePage'
-import Footer from './Footer/Footer'
+import Gallery from './Gallery/Gallery'
+// import Footer from './Footer/Footer'
 
 class App extends React.Component{
   state = {
@@ -36,6 +38,12 @@ class App extends React.Component{
             <div>
                 <Route exact path='/' render={() => (
                   <HomePage />
+                )} />
+                <Route path='/about' render={() => (
+                  <About />
+                )} />
+                <Route path='/gallery' render={() => (
+                  <Gallery />
                 )} />
             </div>
         </div>
