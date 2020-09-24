@@ -6,50 +6,23 @@ import { Container, Row, Col } from 'react-bootstrap'
 import './ContactPage.scss'
 
 const ContactPage = () => (
-  <div className='contact-div info-section'>
-    <Container className='shop-container'>
-    <Row className='rows'>
-    <Col></Col>
-      <Col>
-        <div className='image-wrapper'>
-          <div className='image-div'>
-            <img className='flag-image' src='./Chalk.png' alt='Chalk Board' />
+  <div id='contact' className='contact-div'>
+    <Container fluid className=''>
+      <Row className=''>
+        <Col className='cream'>
+          <div className='cream-div'>
+            <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
+            <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
           </div>
-          <div className='info-div'>
-          <h2>Tells a story...</h2>
-            <p>"Rescue Wood" Cut offs and scraps from new house construction to
-            demolition debris, each piece used at Off Street comes with it's own unique
-            a history.</p>
+        </Col>
+        <Col className='black'>
+          <div className='black-div'>
+          <h1>CONNECT</h1>
+            <p className='black-para'>Join our news letter and be informed
+            of new products and sales.</p>
           </div>
-
-        <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
-          <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
-        </Parallax>
-        </div>
-      </Col>
-      <Col></Col>
-    </Row>
-    <Row className='rows'>
-    <Col></Col>
-      <Col>
-        <div className='image-wrapper'>
-          <div className='image-div'>
-            <img className='flag-image' src='./old-boards.jpg' alt='Chalk Board' />
-          </div>
-          <div className='info-div'>
-          <h2>Tells a story...</h2>
-            <p>"Rescue Wood" Cut offs and scraps from new house construction to
-            demolition debris, each piece used at Off Street comes with it's own unique
-            a history.</p>
-          </div>
-
-        <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
-          <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
-        </Parallax>
-        </div>
-      </Col>
-      <Col></Col>
-    </Row>
+        </Col>
+      </Row>
     </Container>
   </div>
 )
