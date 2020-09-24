@@ -23,6 +23,9 @@ a {
   background-color: #555;
   width: 10px;
   border: none;
+  :focus {
+    outline: none;
+  }
 }
 
 .header {
@@ -32,4 +35,7 @@ a {
   position: fixed;
   z-index: 1000;
   // margin-top: -20px;
+  :focus {
+    outline: none;
+  }
 }

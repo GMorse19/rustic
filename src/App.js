@@ -6,19 +6,20 @@ import './App.scss';
 
 import Header from './Header/Header'
 import HomePage from './HomePage/HomePage'
+import Footer from './Footer/Footer'
 
 class App extends React.Component{
   state = {
-    color: 'img1 App'
+    background: 'img1 App'
   }
 
   listenScrollEvent = e => {
     if (window.scrollY > 2000 && window.scrollY <= 3800) {
-      this.setState({color: 'img2 App'})
+      this.setState({background: 'img2 App'})
     } else if (window.scrollY > 3800) {
-      this.setState({color: 'img3 App'})
+      this.setState({background: 'img3 App'})
     } else {
-      this.setState({color: 'img1 App'})
+      this.setState({background: 'img1 App'})
     }
   }
 
@@ -30,7 +31,7 @@ class App extends React.Component{
   return (
     <BrowserRouter>
       <ParallaxProvider>
-        <div className={this.state.color}>
+        <div className={this.state.background}>
           <Header />
             <div>
                 <Route exact path='/' render={() => (
