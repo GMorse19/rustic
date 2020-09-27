@@ -23,7 +23,7 @@ const Products = () => (
               </Parallax>
             </div>
 
-            <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
+            <Parallax className="custom-class" y={[-90, 90]} tagOuter="figure">
               <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
             </Parallax>
           </div>

@@ -42,9 +42,7 @@ class App extends React.Component{
                 <Route path='/about' render={() => (
                   <About />
                 )} />
-                <Route path='/gallery' render={() => (
-                  <Gallery />
-                )} />
+              
             </div>
         </div>
       </ParallaxProvider>
