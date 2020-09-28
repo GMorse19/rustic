@@ -1,33 +1,44 @@
-import React, { Component } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
 
-import HorizontalScroller from 'react-horizontal-scroll-container'
+import React from 'react'
+import { Parallax } from 'react-scroll-parallax'
 
 import './Gallery.scss'
 
-class Gallery extends Component {
-  render() {
-    return (
-      <div>
-        <HorizontalScroller sensibility={10}>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-          <div className="element"><img className='gallery-image' src='./Flags/B&W/B&W-angle.jpg' alt='black and white'/></div>
-        </HorizontalScroller>
-      </div>
-    );
-  }
-}
+const Gallery = () => (
+  <div className='gallery'>
+  <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[50, -50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[-50, 50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1>NoGallery</h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[50, -50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='' className="custom-class padding" y={[-90, 90]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[50, -50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[50, -50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[-50, 50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+    <h1></h1>
+    <Parallax scrollAxis='horizontal' className="custom-class padding" x={[-50, -50]} tagOuter="figure">
+      <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
+    </Parallax>
+  </div>
+)
 
 export default Gallery
