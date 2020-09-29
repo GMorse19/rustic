@@ -8,7 +8,7 @@ import './ContactPage.scss'
 
 const ContactPage = () => (
   <div id='contact' className='contact-div'>
-    <Container fluid className=''>
+    <Container fluid className='contact-container'>
       <Row className='row'>
         <Col className='cream' xs={12} md={6}>
           <div>

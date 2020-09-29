@@ -11,11 +11,11 @@ import Footer from '../Footer/Footer'
 import './HomePage.scss'
 
 const HomePage = () => (
-      <div className=''>
-        <Container className=''>
+      <div className='home-page-div'>
+        <Container className='logo-container'>
           <Row>
             <Col>
-              <Parallax className="custom-class" y={[-80, 80]} tagOuter="figure">
+              <Parallax className="custom-class logo-div" y={[-80, 80]} tagOuter="figure">
                 <img className='home-logo' width='300px' src='./Logo/OSlogo.png' alt='rustic'/>
               </Parallax>
             </Col>
