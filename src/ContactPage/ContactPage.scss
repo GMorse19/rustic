@@ -1,15 +1,10 @@
 .black {
   background: #000;
   display: flex;
-  height: 100vh;
   justify-content: center;
-  width: 50vw;
-  // padding: 5%;
 }
 
 .black-div {
-  width: 40vw;
-  height: 80vh;
   color: #e3e1e1;
   margin-top: 5vh;
 }
@@ -30,26 +25,13 @@
 .cream {
   background: #f3edbe;
   display: flex;
-  height: 100vh;
   justify-content: center;
-  width: 50vw;
-  // padding: 5%;
-}
-
-.cream-div {
-  width: 40vw;
-  height: 80vh;
 }
 
 .contact-div {
   margin-bottom: 80vh;
-  // margin-top: 20vh;
 }
 
 .pad {
   margin: 25%;
-}
-
-.space {
-
 }

@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -12,7 +11,7 @@ const ContactPage = () => (
     <Container fluid className=''>
       <Row className='row'>
         <Col className='cream' xs={12} md={6}>
-          <div className='cream-div'>
+          <div>
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
           </div>
