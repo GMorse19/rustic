@@ -1,5 +1,4 @@
 import React from 'react'
-// import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
@@ -21,7 +20,7 @@ const Footer = () => (
             <h4 className=''>Contact Us</h4>
             <h6><a className='spacing' href='/'>Email</a></h6>
             <h6><a className='spacing' href='/'>Phone</a></h6>
-            <h6><a className='spacing' href='/'>About</a></h6>
+            <h6><a className='spacing' href='/'>AboutPage</a></h6>
         </div>
         </Col>
       </Row>

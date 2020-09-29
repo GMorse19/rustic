@@ -2,19 +2,20 @@ import React from 'react'
 
 import { Container, Row, Col } from 'react-bootstrap'
 
-import SignUp from './ContactForm'
+import SignUp from './ConnectForm'
 
-import './ContactPage.scss'
+import './Connect.scss'
 
-const ContactPage = () => (
+const Connect = () => (
   <div id='contact' className='contact-div'>
-    <Container fluid className=''>
+    <Container fluid className='contact-container'>
       <Row className='row'>
         <Col className='cream' xs={12} md={6}>
           <div>
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
           </div>
+          
         </Col>
         <Col className='black' xs={12} md={6}>
           <div className='black-div'>
@@ -31,4 +32,4 @@ const ContactPage = () => (
   </div>
 )
 
-export default ContactPage
+export default Connect
