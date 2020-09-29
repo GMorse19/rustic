@@ -8,7 +8,6 @@ import './AboutPage.scss'
 const AboutPage = () => (
   <div className='about-page'>
     <Title />
-    <h1>AboutPage</h1>
     <Intro />
   </div>
 )
