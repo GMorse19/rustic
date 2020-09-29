@@ -10,16 +10,16 @@ import './ContactPage.scss'
 const ContactPage = () => (
   <div id='contact' className='contact-div'>
     <Container fluid className=''>
-      <Row className=''>
-        <Col className='cream'>
+      <Row className='row'>
+        <Col className='cream' xs={12} md={6}>
           <div className='cream-div'>
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
           </div>
         </Col>
-        <Col className='black'>
+        <Col className='black' xs={12} md={6}>
           <div className='black-div'>
-          <h1>CONNECT</h1>
+          <p className='connect-header'>CONNECT</p>
             <p className='black-para'>
             Join our news letter and be informed
             of new products and sales.
