@@ -27,7 +27,6 @@
 }
 
 .info-div {
-  font-size: 15px;
   position: absolute;
   margin-top: 25%;
   width: 20vw;
@@ -52,10 +51,21 @@
 }
 
 .title-div {
-  // background-color: rgba(255,255,255, 0.3);
-  // box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.4), 20px 6px 20px 20px rgba(0, 0, 0, 0.19);
   color: #f3edbe;
   margin-top: 60vh;
   margin-bottom: 30vh;
   text-shadow: 3px 3px 0 #000;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 500px) {
+  .info-div {
+    font-size: 10px;
+    top: 20vh;
+    width: 60vw;
+    right: 5px;
+  }
 }
