@@ -1,7 +1,9 @@
 import React from 'react'
-import { Parallax } from 'react-scroll-parallax'
+// import { Parallax } from 'react-scroll-parallax'
 
 import { Container, Row, Col } from 'react-bootstrap'
+
+import SignUp from './ContactForm'
 
 import './ContactPage.scss'
 
@@ -18,8 +20,11 @@ const ContactPage = () => (
         <Col className='black'>
           <div className='black-div'>
           <h1>CONNECT</h1>
-            <p className='black-para'>Join our news letter and be informed
-            of new products and sales.</p>
+            <p className='black-para'>
+            Join our news letter and be informed
+            of new products and sales.
+            </p>
+            <SignUp />
           </div>
         </Col>
       </Row>
