@@ -15,13 +15,12 @@ const Connect = () => (
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
             <img className='carpenter' src='./carpenter.jpg' alt='carpenter' />
           </div>
-
         </Col>
         <Col className='black' xs={12} md={6}>
           <div className='black-div'>
           <p className='connect-header'>CONNECT</p>
             <p className='black-para'>
-            Join our news letter and be informed
+            Join our news letter and stay informed
             of new products and sales.
             </p>
             <SignUp />
