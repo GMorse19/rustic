@@ -1,5 +1,6 @@
 {
   "name": "rustic",
+  "homepage": "https://gmorse19.github.io/rustic/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
