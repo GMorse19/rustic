@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rustic/static/css/main.8aedc3cc.chunk.css",
-    "main.js": "/rustic/static/js/main.7829e050.chunk.js",
-    "main.js.map": "/rustic/static/js/main.7829e050.chunk.js.map",
+    "main.js": "/rustic/static/js/main.cad211a4.chunk.js",
+    "main.js.map": "/rustic/static/js/main.cad211a4.chunk.js.map",
     "runtime-main.js": "/rustic/static/js/runtime-main.6b97857b.js",
     "runtime-main.js.map": "/rustic/static/js/runtime-main.6b97857b.js.map",
     "static/js/2.47eb48c1.chunk.js": "/rustic/static/js/2.47eb48c1.chunk.js",
     "static/js/2.47eb48c1.chunk.js.map": "/rustic/static/js/2.47eb48c1.chunk.js.map",
     "index.html": "/rustic/index.html",
-    "precache-manifest.7a165ae895bd45a4667fbe507f9f6d1c.js": "/rustic/precache-manifest.7a165ae895bd45a4667fbe507f9f6d1c.js",
+    "precache-manifest.9d5c155bbfa6c6d38fbc3ec3096ede0e.js": "/rustic/precache-manifest.9d5c155bbfa6c6d38fbc3ec3096ede0e.js",
     "service-worker.js": "/rustic/service-worker.js",
     "static/css/main.8aedc3cc.chunk.css.map": "/rustic/static/css/main.8aedc3cc.chunk.css.map",
     "static/js/2.47eb48c1.chunk.js.LICENSE.txt": "/rustic/static/js/2.47eb48c1.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6b97857b.js",
     "static/js/2.47eb48c1.chunk.js",
     "static/css/main.8aedc3cc.chunk.css",
-    "static/js/main.7829e050.chunk.js"
+    "static/js/main.cad211a4.chunk.js"
   ]
 }

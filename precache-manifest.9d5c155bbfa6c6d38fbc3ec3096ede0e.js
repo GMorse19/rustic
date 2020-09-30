@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9cbbe38af64871042391f01047cebced",
+    "revision": "f991365db865ba0265b4150862ddefc3",
     "url": "/rustic/index.html"
   },
   {
-    "revision": "32d3e02298ea34e53cc0",
+    "revision": "dba0d0f88cb956233714",
     "url": "/rustic/static/css/main.8aedc3cc.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/rustic/static/js/2.47eb48c1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "32d3e02298ea34e53cc0",
-    "url": "/rustic/static/js/main.7829e050.chunk.js"
+    "revision": "dba0d0f88cb956233714",
+    "url": "/rustic/static/js/main.cad211a4.chunk.js"
   },
   {
     "revision": "edf0ce805b6c6dd581e0",
