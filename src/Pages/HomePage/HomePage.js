@@ -2,7 +2,6 @@ import React from 'react'
 
 import Products from '../../Components/Products/Products'
 import Connect from '../../Components/Connect/Connect'
-import InfoPage from '../../Pages/InfoPage/InfoPage'
 import Footer from '../../Components/Footer/Footer'
 import Title from '../../Components/Title/Title'
 
