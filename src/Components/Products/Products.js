@@ -38,10 +38,12 @@ const Products = () => (
               <img className='flag-image' src='./old-boards.jpg' alt='Chalk Board' />
             </div>
             <div className='info-div'>
-            <h2>Tells a story...</h2>
-              <p>"Rescue Wood" Cut offs and scraps from new house construction to
-              demolition debris, each piece used at Off Street comes with it's own unique
-              a history.</p>
+              <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
+              <h2>Tells a story...</h2>
+                <p>"Rescue Wood" Cut offs and scraps from new house construction to
+                demolition debris, each piece used at Off Street comes with it's own unique
+                a history.</p>
+              </Parallax>
             </div>
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
@@ -59,10 +61,12 @@ const Products = () => (
               <img className='flag-image' src='./Chalk.png' alt='Chalk Board' />
             </div>
             <div className='info-div'>
-            <h2>Green...</h2>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam,"</p>
+              <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
+              <h2>Green...</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam,"</p>
+              </Parallax>
             </div>
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
@@ -80,10 +84,12 @@ const Products = () => (
               <img className='flag-image' src='./birdHouse.jpg' alt='Bird House' />
             </div>
             <div className='info-div'>
-            <h2>Reclaimed...</h2>
-              <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-              do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam,"</p>
+              <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
+              <h2>Reclaimed...</h2>
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam,"</p>
+              </Parallax>
             </div>
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">

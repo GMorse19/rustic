@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import { Form, Button } from 'react-bootstrap'
 
-import './ContactPage.scss'
+import './Connect.scss'
 
 class SignUp extends Component {
   constructor () {

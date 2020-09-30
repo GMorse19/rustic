@@ -2,6 +2,8 @@
   background: #000;
   display: flex;
   justify-content: center;
+  padding: 15px;
+  padding-bottom: 5vh;
 }
 
 .black-div {
@@ -28,10 +30,22 @@
   justify-content: center;
 }
 
+.contact-container {
+
+}
+
 .contact-div {
   margin-bottom: 80vh;
 }
 
 .pad {
   margin: 25%;
+}
+
+@media screen and (max-width: 1000px) {
+
+}
+
+@media screen and (max-width: 500px) {
+
 }
