@@ -1,7 +1,9 @@
 import React from 'react'
 import { Parallax } from 'react-scroll-parallax'
-
 import { Container, Row, Col } from 'react-bootstrap'
+
+import ProductDescription from './ProductDescription/ProductDescription'
+import content from './ProductDescription/Content'
 
 import './Products.scss'
 
@@ -15,13 +17,11 @@ const Products = () => (
             <div className='image-div'>
               <img className='flag-image' src='./Flags/RedWhite&Blue/FlagCutOut.png' alt='Stars and Stripes' />
             </div>
-            <div className='info-div'>
-              <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
-              <h2>One persons trash...</h2>
-                <p>Re-use, re-purpose, re-invent. Off Street is committed to utilizing left over and forgotten
-                construction debris to create beautifully unique hand crafted items.</p>
-              </Parallax>
-            </div>
+
+            <ProductDescription
+              title={content.one.title}
+              description={content.one.description}
+            />
 
               <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
                 <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
@@ -37,14 +37,11 @@ const Products = () => (
             <div className='image-div'>
               <img className='flag-image' src='./old-boards.jpg' alt='Chalk Board' />
             </div>
-            <div className='info-div'>
-              <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
-              <h2>Tells a story...</h2>
-                <p>"Rescue Wood" Cut offs and scraps from new house construction to
-                demolition debris, each piece used at Off Street comes with it's own unique
-                a history.</p>
-              </Parallax>
-            </div>
+            
+            <ProductDescription
+              title={content.two.title}
+              description={content.two.description}
+            />
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
             <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
@@ -60,14 +57,11 @@ const Products = () => (
             <div className='image-div'>
               <img className='flag-image' src='./Chalk.png' alt='Chalk Board' />
             </div>
-            <div className='info-div'>
-              <Parallax className="custom-class" y={[20, -20]} tagOuter="figure">
-              <h2>Green...</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam,"</p>
-              </Parallax>
-            </div>
+
+            <ProductDescription
+              title={content.three.title}
+              description={content.three.description}
+            />
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
             <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
@@ -83,14 +77,11 @@ const Products = () => (
             <div className='image-div'>
               <img className='flag-image' src='./birdHouse.jpg' alt='Bird House' />
             </div>
-            <div className='info-div'>
-              <Parallax className="custom-class" y={[-50, 50]} tagOuter="figure">
-              <h2>Reclaimed...</h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                Ut enim ad minim veniam,"</p>
-              </Parallax>
-            </div>
+
+            <ProductDescription
+              title={content.four.title}
+              description={content.four.description}
+            />
 
           <Parallax className="custom-class" y={[-90, 100]} tagOuter="figure">
             <img className='home-logo-gallery' alt='logo' src='./Logo/OSLogo.png'/>
